@@ -1,0 +1,121 @@
+/* <<<<<<=======Header======>>>>>> */
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #030712;
+    padding: 5px 100px;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.logo {
+    color: aqua;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+/* <<<<<<<<==========Home==========>>>>>>>> */
+
+.homeContainer {
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.content {
+    text-align: center;
+}
+.heading {
+    color: #3b82f6;
+    font-size: 2.25rem ;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.para {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #6b7280;
+}
+.para2 {
+    font-size: 1rem;
+    color: #6b7280;
+    margin-top: 1.5rem;
+}
+/* <<<<<<============About===========>>>>> */
+
+.aboutHeading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 25px 0 25px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutpara {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+
+}
+
+@media (max-width: 600px){
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutHeading {
+        margin-left: 0;
+    }
+    .aboutpara {
+        margin-left: 50px;
+    }
+}
+
+/* <<<<<<<<=============Contact us============>>>>>>>>>> */
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactHeading {
+    padding-top: 25px;
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+.formContainer input, .formContainer textarea {
+    border: 2px solid #bebdbd;
+    width: 50rem;
+    padding: 10px;
+}
+.formContainer label {
+    padding: 20px 0 5px 0;
+    font-weight: 700;
+}
+
+@media (max-width: 600px){
+    .container {
+        padding: 10px 25px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .formContainer input, .formContainer textarea {
+        width: 20rem;
+    }
+}
